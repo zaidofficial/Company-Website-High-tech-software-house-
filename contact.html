@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Tech - Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="hightech.jpeg">
+</head>
+<body>
+    <header class="navbar">
+        <h2 class="logo">HighTech</h2>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+        <button id="theme-toggle"><i class="fa-solid fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <section class="contact-page">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+        <p>Email: info@hightech.com</p>
+        <p>Phone: +92 309 8038363</p>
+        <p>Follow us: <a href="https://www.facebook.com/share/1BoZB75ejU/">Facebook</a> | <a href="https://www.linkedin.com/company/high-tech-software-house/">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>✅ Message Sent!</h2>
+            <p>Thank you for contacting us. We’ll get back to you soon.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 High Tech Software House. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
